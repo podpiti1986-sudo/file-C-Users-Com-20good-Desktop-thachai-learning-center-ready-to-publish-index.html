@@ -92,6 +92,17 @@
           "url": "https://www.facebook.com/profile.php?id=100057513457069"
         }
       ]
+    },
+    {
+      "anchor": "section-3",
+      "title": "ข่าวประชาสัมพันธ์ ประจำเดือน พฤศจิกายน 2569",
+      "blocks": [
+        {
+          "type": "image",
+          "image": "assets/uploads/6.jpg",
+          "alt": "ประชาสัมพันธ์"
+        }
+      ]
     }
   ]
 }
