@@ -1,0 +1,12 @@
+{
+  "name": "thachai-learning-center",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.cjs",
+    "test": "node --test scripts/cms.test.cjs"
+  },
+  "engines": {
+    "node": "22.x"
+  }
+}
