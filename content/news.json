@@ -99,8 +99,33 @@
       "blocks": [
         {
           "type": "image",
+          "image": "assets/uploads/1.jpg",
+          "alt": "ข่าวประชาสัมพันธ์ พฤศจิกายน 2569 ภาพที่ 1"
+        },
+        {
+          "type": "image",
+          "image": "assets/uploads/2.jpg",
+          "alt": "ข่าวประชาสัมพันธ์ พฤศจิกายน 2569 ภาพที่ 2"
+        },
+        {
+          "type": "image",
+          "image": "assets/uploads/3.jpg",
+          "alt": "ข่าวประชาสัมพันธ์ พฤศจิกายน 2569 ภาพที่ 3"
+        },
+        {
+          "type": "image",
+          "image": "assets/uploads/4.jpg",
+          "alt": "ข่าวประชาสัมพันธ์ พฤศจิกายน 2569 ภาพที่ 4"
+        },
+        {
+          "type": "image",
+          "image": "assets/uploads/5.jpg",
+          "alt": "ข่าวประชาสัมพันธ์ พฤศจิกายน 2569 ภาพที่ 5"
+        },
+        {
+          "type": "image",
           "image": "assets/uploads/6.jpg",
-          "alt": "ประชาสัมพันธ์"
+          "alt": "ข่าวประชาสัมพันธ์ พฤศจิกายน 2569 ภาพที่ 6"
         }
       ]
     }
