@@ -1,0 +1,26 @@
+{
+  "school": {
+    "file": "school.html",
+    "label": "ข้อมูลสถานศึกษา"
+  },
+  "news": {
+    "file": "news.html",
+    "label": "ข่าวประชาสัมพันธ์"
+  },
+  "community": {
+    "file": "community-learning.html",
+    "label": "แหล่งเรียนรู้"
+  },
+  "results2569": {
+    "file": "results-2569.html",
+    "label": "ผลการดำเนินงาน ปี 2569"
+  },
+  "results2570": {
+    "file": "results-2570.html",
+    "label": "ผลการดำเนินงาน ปี 2570"
+  },
+  "academic": {
+    "file": "academic.html",
+    "label": "ผลงานวิชาการ"
+  }
+}

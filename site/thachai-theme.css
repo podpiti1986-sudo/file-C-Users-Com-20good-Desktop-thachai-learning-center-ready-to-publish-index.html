@@ -1,0 +1,31 @@
+:root{--purple:#17559a;--deep:#112f58;--violet:#2983c9;--gold:#e9bd61;--ink:#20354e;--muted:#61758c;--paper:#f5f9fe;--line:#ddeaf7;--shadow:0 16px 48px rgba(24,70,116,.10)}
+.tc-draft-note{background:#fff9e9;border-bottom:1px solid #eddba9;color:#765512;font-size:13px;padding:10px 0;line-height:1.6}
+.tc-draft-note strong{margin-right:10px}
+.tc-banner{position:relative;overflow:hidden;background:#e4f3ff;min-height:330px;border-bottom:4px solid #dfb24b}
+.tc-banner>img{width:100%;height:360px;object-fit:cover;object-position:center}
+.tc-banner-copy{position:absolute;top:50%;left:30%;width:43%;transform:translateY(-50%);text-align:center;padding:18px 10px;color:#123969}
+.tc-banner-copy span{font:700 12px Sarabun,Tahoma,sans-serif;letter-spacing:2px;color:#3674a8}
+.tc-banner-copy h1{font:700 clamp(27px,3.5vw,52px)/1.25 Kanit,Tahoma,sans-serif;margin:12px 0;text-shadow:0 2px #fff}
+.tc-banner-copy p{margin:0;font:600 clamp(14px,1.6vw,22px) Sarabun,Tahoma,sans-serif}
+.tc-contact{text-align:center;max-width:820px;margin:0 auto 50px;padding:35px}
+.tc-avatar{display:grid;place-items:center;width:100px;height:100px;border-radius:50%;margin:20px auto;background:linear-gradient(135deg,#17559a,#4499db);color:#fff;font:700 50px Kanit,Tahoma,sans-serif;border:4px solid #e9bd61}
+.tc-location-pending{min-height:250px;background:#e9f3fc;display:grid;place-content:center;text-align:center;padding:25px;color:#21517c;border-radius:20px}
+.tc-location-pending a{text-decoration:underline}
+.tile.pink{background:linear-gradient(120deg,#e3f1ff,#b7d8fa);color:#174b7c}
+.tc-portrait{width:220px;height:auto;max-width:80%;margin:24px auto;border:4px solid #e9bd61;border-radius:18px;box-shadow:0 10px 30px #153d6d20}
+.tc-contact-links{display:flex;justify-content:center;flex-wrap:wrap;gap:12px;margin:24px 0}
+.tc-contact-links a{max-width:100%;white-space:normal;overflow-wrap:anywhere}
+.tc-admission-poster{width:min(100%,620px);height:auto;margin:20px auto;border-radius:16px}
+.tc-admission ul{padding-left:24px;line-height:1.9}
+.tc-admission h3{color:var(--deep);margin-top:24px}
+.brand img{object-fit:contain}
+.tc-data-note{padding:16px 20px;background:#fff8e5;border-left:4px solid #d8ad47;border-radius:12px;color:#775719;line-height:1.8}
+.school-section blockquote{margin:16px 0;padding:20px 24px;border-left:4px solid #277ac0;background:#edf6ff;border-radius:12px;line-height:1.9;color:#153d6d}
+.school-section li{margin-bottom:12px;line-height:1.8}
+.tc-timeline h3{border-left:3px solid #dfb65e;padding-left:14px;margin-top:24px}
+.tc-empty-content{min-height:240px}
+.header{position:sticky;top:0;z-index:1000;width:100%;background:#fff;overflow:visible}
+.header .primary-nav{margin-top:0;margin-bottom:0}
+.header .mobile-menu.open{max-height:calc(100dvh - 80px);overflow-y:auto}
+img[src="assets/thachai-seal.webp"]{border-radius:50%;clip-path:circle(47.5% at 50% 50%);background:transparent}
+@media(max-width:700px){.tc-banner{min-height:0}.tc-banner>img{height:auto;aspect-ratio:3/1;object-fit:cover}.tc-banner-copy{position:relative;top:auto;left:auto;width:100%;transform:none;background:#edf6ff;padding:24px 18px}.tc-banner-copy h1{font-size:27px}.tc-draft-note{font-size:12px}.tc-contact{padding:24px}.tc-banner-copy span{font-size:10px}}

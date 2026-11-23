@@ -1,0 +1,97 @@
+{
+  "title": "ข่าวประชาสัมพันธ์",
+  "sections": [
+    {
+      "anchor": "admission",
+      "title": "📢 รับสมัครนักศึกษาใหม่ ภาคเรียนที่ 2 ปีการศึกษา 2569",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "",
+          "body": "ประกาศจากเพจ ศกร.ระดับตำบลท่าชัย • 22 กันยายน 2569"
+        },
+        {
+          "type": "image",
+          "image": "assets/thachai-admission-2569.webp",
+          "alt": "โปสเตอร์รับสมัครนักศึกษา ศกร.ระดับตำบลท่าชัย จากเพจต้นทาง"
+        },
+        {
+          "type": "text",
+          "heading": "ระดับที่เปิดรับสมัคร",
+          "body": ""
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "ประถมศึกษา",
+            "มัธยมศึกษาตอนต้น (ม.ต้น)",
+            "มัธยมศึกษาตอนปลาย (ม.ปลาย)"
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "กำหนดการรับสมัคร",
+          "body": ""
+        },
+        {
+          "type": "text",
+          "heading": "",
+          "body": "สมัครได้ถึง 30 ตุลาคม 2569 ตามข้อความประกาศในเพจ"
+        },
+        {
+          "type": "text",
+          "heading": "หลักฐานที่ใช้ในการสมัคร",
+          "body": ""
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "สำเนาบัตรประจำตัวประชาชน 1 ฉบับ",
+            "สำเนาทะเบียนบ้าน 1 ฉบับ",
+            "สำเนาวุฒิการศึกษาเดิม 1 ฉบับ พร้อมฉบับจริง",
+            "รูปถ่ายขนาด 1 นิ้ว หรือ 1.5 นิ้ว ถ่ายไม่เกิน 6 เดือน",
+            "ใบเปลี่ยนชื่อ–นามสกุล ถ้ามี"
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "",
+          "body": "ติดต่อสมัครเรียนหรือสอบถาม: ครูป๊อด นายปิติพงษ์ เผ่าเสรีพงษ์☎ 088-4397331"
+        },
+        {
+          "type": "button",
+          "label": "อ่านประกาศต้นทาง ↗",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid08mUDc1Q5TGHc77qczfXpC81M3FQE76XDYGyxSvxxKkR8AUuNgQfNmvEtwpGGDNE2l&id=100057513457069"
+        },
+        {
+          "type": "button",
+          "label": "ดูโปสเตอร์เต็มภาพ ↗",
+          "url": "assets/thachai-admission-2569.webp"
+        }
+      ]
+    },
+    {
+      "anchor": "section-2",
+      "title": "🗞️ ข่าวสารและภาพกิจกรรม",
+      "blocks": [
+        {
+          "type": "image",
+          "image": "assets/thachai-campus.webp",
+          "alt": "อาคาร ศกร.ระดับตำบลท่าชัย ภาพจากผู้ใช้"
+        },
+        {
+          "type": "text",
+          "heading": "",
+          "body": "ติดตามการจัดกิจกรรม ข่าว และประกาศเพิ่มเติมผ่านช่องทางที่ให้ไว้"
+        },
+        {
+          "type": "button",
+          "label": "ติดตาม Facebook ↗",
+          "url": "https://www.facebook.com/profile.php?id=100057513457069"
+        }
+      ]
+    }
+  ]
+}

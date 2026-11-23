@@ -1,0 +1,188 @@
+{
+  "updatedAt": "2026-10-11",
+  "books": [
+    {
+      "id": "hr-tricolor-cat",
+      "title": "แมวสามสีอยู่ไหนนะ",
+      "author": "ภิมลพรรณ อุ่นแก้ว",
+      "ages": [
+        "early"
+      ],
+      "desc": "นิทานภาพชวนสังเกตและค้นหา เหมาะสำหรับผู้ปกครองอ่านร่วมกับเด็กเล็ก",
+      "url": "https://www.happyreading.in.th/wp-content/uploads/2026/01/แมวสามสี-หน้าเดี่ยว_compressed.pdf",
+      "sourceUrl": "https://www.happyreading.in.th/bookreview/tricolor-cat/",
+      "source": "มูลนิธิสร้างเสริมวัฒนธรรมการอ่าน",
+      "coverLabel": "ปกต้นฉบับ",
+      "rights": "ต้นทางเปิดอ่านและดาวน์โหลดฟรี • ลิขสิทธิ์เป็นของเจ้าของผลงาน",
+      "format": "PDF",
+      "pages": 24,
+      "verifiedAt": "2026-10-11",
+      "cover": "assets/library-hr-tricolor-cat.webp"
+    },
+    {
+      "id": "hr-anis-wants-to-grow-taller",
+      "title": "อานีสอยากสูง",
+      "author": "รศ. นพ. เทอดพงศ์ ทองศรีราช; ผู้แปล ฮูเซ็น ซาวัล",
+      "ages": [
+        "early"
+      ],
+      "desc": "นิทานภาพชวนเด็กเรียนรู้เรื่องการเติบโตและสุขภาพ ผ่านการอ่านร่วมกับครอบครัว",
+      "url": "https://www.happyreading.in.th/wp-content/uploads/2026/01/aw-อานีสอยากสูง-Web-Created-Outline-หน้าเดี่ยว-LR.pdf",
+      "sourceUrl": "https://www.happyreading.in.th/bookreview/anis-wants-to-grow-taller/",
+      "source": "มูลนิธิสร้างเสริมวัฒนธรรมการอ่าน",
+      "coverLabel": "ปกต้นฉบับ",
+      "rights": "ต้นทางเปิดอ่านและดาวน์โหลดฟรี • ลิขสิทธิ์เป็นของเจ้าของผลงาน",
+      "format": "PDF",
+      "pages": 28,
+      "verifiedAt": "2026-10-11",
+      "cover": "assets/library-hr-anis-wants-to-grow-taller.webp"
+    },
+    {
+      "id": "hr-the-mystery-of-hala-bala-forest",
+      "title": "ป่าปริศนา ฮาลาบาลา",
+      "author": "รศ. นพ. เทอดพงศ์ ทองศรีราช; เรียบเรียง ระพีพรรณ พัฒนาเวช",
+      "ages": [
+        "school"
+      ],
+      "desc": "นิทานภาพเรื่องป่าฮาลาบาลา ชวนอ่านเรื่องราวและสำรวจภาพ เหมาะสำหรับเด็กอ่านร่วมกับผู้ใหญ่",
+      "url": "https://www.happyreading.in.th/wp-content/uploads/2026/06/ป่าปริศนา-ฮาลาบาลา_หน้าเดี่ยว-WEB_small.pdf",
+      "sourceUrl": "https://www.happyreading.in.th/bookreview/the-mystery-of-hala-bala-forest/",
+      "source": "มูลนิธิสร้างเสริมวัฒนธรรมการอ่าน",
+      "coverLabel": "ปกต้นฉบับ",
+      "rights": "ต้นทางเปิดอ่านและดาวน์โหลดฟรี • ลิขสิทธิ์เป็นของเจ้าของผลงาน",
+      "format": "PDF",
+      "pages": 32,
+      "verifiedAt": "2026-10-11",
+      "cover": "assets/library-hr-the-mystery-of-hala-bala-forest.webp"
+    },
+    {
+      "id": "hr-waking-up-to-data",
+      "title": "ตื่นใจในข้อมูล",
+      "author": "พรียังกา โบราร์; ผู้แปล อรรคณัฐ วันทนะสมบัติ และชมัยภร บางคมบาง",
+      "ages": [
+        "school"
+      ],
+      "desc": "หนังสือภาพชวนเรียนรู้เรื่องข้อมูล ผ่านภาพและเรื่องราว เหมาะสำหรับเด็กอ่านร่วมกับผู้ใหญ่",
+      "url": "https://www.happyreading.in.th/wp-content/uploads/2026/01/Waking-up_AW-8-create-for-ebook.pdf",
+      "sourceUrl": "https://www.happyreading.in.th/bookreview/waking-up-to-data/",
+      "source": "มูลนิธิสร้างเสริมวัฒนธรรมการอ่าน",
+      "coverLabel": "ปกต้นฉบับ",
+      "rights": "ต้นทางเปิดอ่านและดาวน์โหลดฟรี • ลิขสิทธิ์เป็นของเจ้าของผลงาน",
+      "format": "PDF",
+      "pages": 40,
+      "verifiedAt": "2026-10-11",
+      "cover": "assets/library-hr-waking-up-to-data.webp"
+    },
+    {
+      "id": "dmh-0",
+      "title": "รับผิดชอบอย่างไรให้ใจเป็นสุข",
+      "author": "โครงการ TO BE NUMBER ONE",
+      "ages": [
+        "teen"
+      ],
+      "desc": "คู่มือสำหรับเยาวชน ฝึกความรับผิดชอบต่อตนเอง ครอบครัว และสังคม",
+      "url": "https://dmh-elibrary.org/files/original/4fdb4da553a49f0620b44fb4c0b49565.pdf",
+      "sourceUrl": "https://dmh-elibrary.org/items/show/1446",
+      "source": "คลังความรู้สุขภาพจิต กรมสุขภาพจิต",
+      "coverLabel": "ปกต้นฉบับ",
+      "rights": "อ่านฟรีจากคลังความรู้กรมสุขภาพจิต • ดูเงื่อนไขสิทธิ์ที่ต้นทาง",
+      "format": "PDF",
+      "pages": 44,
+      "verifiedAt": "2026-10-11",
+      "cover": "assets/library-dmh-0.webp"
+    },
+    {
+      "id": "dmh-1",
+      "title": "เครียดได้ คลายเป็น",
+      "author": "กรมสุขภาพจิต",
+      "ages": [
+        "teen",
+        "adult",
+        "senior"
+      ],
+      "desc": "รู้จักความเครียดและวิธีผ่อนคลาย ดูแลสุขภาพใจในชีวิตประจำวัน",
+      "url": "https://dmh-elibrary.org/files/original/0a898c81ba1d70e782a4db623da18416.pdf",
+      "sourceUrl": "https://dmh-elibrary.org/items/show/1560",
+      "source": "คลังความรู้สุขภาพจิต กรมสุขภาพจิต",
+      "coverLabel": "ปกต้นฉบับ",
+      "rights": "อ่านฟรีจากคลังความรู้กรมสุขภาพจิต • ดูเงื่อนไขสิทธิ์ที่ต้นทาง",
+      "format": "PDF",
+      "pages": 58,
+      "verifiedAt": "2026-10-11",
+      "cover": "assets/library-dmh-1.webp"
+    },
+    {
+      "id": "work-stress",
+      "title": "คุณรับมือกับความเครียดได้? ฉบับวัยทำงาน",
+      "author": "กรมสุขภาพจิต",
+      "ages": [
+        "adult"
+      ],
+      "desc": "ชวนคนทำงานเข้าใจความเครียดและเรียนรู้วิธีผ่อนคลายในชีวิตประจำวัน",
+      "url": "https://dol.thaihealth.or.th/File/media/de91d06b-e204-46a8-9388-b12808f31107.pdf",
+      "sourceUrl": "https://happyworkplace.thaihealth.or.th/knowledge/5077e534-54cd-4f39-b0a9-a7f04c12cae3",
+      "source": "Happy Workplace สสส.",
+      "coverLabel": "ปกต้นฉบับ",
+      "rights": "ต้นทางเผยแพร่ให้อ่านและดาวน์โหลดฟรี",
+      "format": "PDF",
+      "pages": 12,
+      "verifiedAt": "2026-10-11",
+      "cover": "assets/library-work-stress.webp"
+    },
+    {
+      "id": "wellness-2569",
+      "title": "อนามัย THE WELLNESS HAND BOOK 2569",
+      "author": "กรมอนามัย",
+      "ages": [
+        "adult",
+        "senior"
+      ],
+      "desc": "คู่มือการดูแลสุขภาพและสร้างพฤติกรรมสุขภาพที่ดีในชีวิตประจำวัน",
+      "url": "https://multimedia.anamai.moph.go.th/oawoocha/2026/02/DOH-welness2569.pdf",
+      "sourceUrl": "https://multimedia.anamai.moph.go.th/ebooks/doh-the-wellness-hand-book-2569/",
+      "source": "กรมอนามัย",
+      "cover": "assets/community-book-5.webp",
+      "coverLabel": "ปกต้นฉบับ",
+      "rights": "อ่านฟรีจากกรมอนามัย • ลิขสิทธิ์เป็นของหน่วยงานต้นทาง",
+      "format": "PDF",
+      "pages": 129,
+      "verifiedAt": "2026-10-11"
+    },
+    {
+      "id": "elder-2",
+      "title": "วิถีเสริมสร้างผู้สูงอายุสุขภาพดี",
+      "author": "สำนักโภชนาการ กรมอนามัย",
+      "ages": [
+        "senior"
+      ],
+      "desc": "แผ่นพับความรู้ด้านอาหารและโภชนาการสำหรับผู้สูงอายุ อ่านร่วมกับครอบครัวหรือผู้ดูแลได้",
+      "url": "https://nutrition2.anamai.moph.go.th/th/elderlybook/download/?did=194713&id=47556&reload=",
+      "sourceUrl": "https://nutrition2.anamai.moph.go.th/th/elderlybook/download/?did=194713&id=47556&reload=",
+      "source": "กรมอนามัย",
+      "coverLabel": "หน้าต้นฉบับ",
+      "rights": "เอกสารเผยแพร่สาธารณะจากกรมอนามัย",
+      "format": "แผ่นพับ PDF",
+      "pages": 2,
+      "verifiedAt": "2026-10-11",
+      "cover": "assets/library-elder-2.webp"
+    },
+    {
+      "id": "elder-3",
+      "title": "Anamai Aging Activities : AAA",
+      "author": "ศูนย์อนามัยที่ 9 นครราชสีมา กรมอนามัย",
+      "ages": [
+        "senior"
+      ],
+      "desc": "เอกสารกิจกรรมสำหรับผู้สูงอายุและผู้ดูแล ภายใต้แนวคิด ไม่ล้ม ไม่ลืม ไม่ซึมเศร้า กินข้าวอร่อย",
+      "url": "https://hpc9.anamai.moph.go.th/web-upload/34xf7bc6945ddc8ea9e10383b7c6093a547/m_document/31738/13131/file_download/95c3e760b2b1fbb807b976f7748d6cf6.pdf",
+      "sourceUrl": "https://hpc9.anamai.moph.go.th/web-upload/34xf7bc6945ddc8ea9e10383b7c6093a547/m_document/31738/13131/file_download/95c3e760b2b1fbb807b976f7748d6cf6.pdf",
+      "source": "กรมอนามัย",
+      "coverLabel": "หน้าต้นฉบับ",
+      "rights": "เอกสารเผยแพร่สาธารณะจากกรมอนามัย",
+      "format": "เอกสาร PDF",
+      "pages": 5,
+      "verifiedAt": "2026-10-11",
+      "cover": "assets/library-elder-3.webp"
+    }
+  ]
+}

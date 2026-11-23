@@ -1,0 +1,10 @@
+/* Small, optional motion; content stays visible if JavaScript is unavailable. */
+.reading-progress{position:fixed;inset:0 0 auto;height:4px;z-index:200;pointer-events:none;background:linear-gradient(90deg,#4aa2d2,#e9bd61);transform:scaleX(0);transform-origin:left;will-change:transform}
+.back-to-top{position:fixed;left:18px;bottom:20px;z-index:80;width:46px;height:46px;border-radius:50%;border:2px solid #e9bd61;background:#256e97;color:#ffffff;box-shadow:0 5px 18px #33115f30;font:700 26px/1 Sarabun,sans-serif;transition:transform .2s,background .2s}
+.back-to-top[hidden]{display:none}
+.btn,.pl-button,.link-card,.service-links a{transition:transform .2s,box-shadow .2s,background .2s}
+.resource-card,.pl-card{transition:transform .25s,box-shadow .25s}
+.nav-group[open]>.nav-dropdown{animation:menu-appear .18s ease-out}
+@keyframes menu-appear{from{opacity:.4;transform:translateY(-5px)}to{opacity:1;transform:translateY(0)}}
+@media(hover:hover) and (pointer:fine){.resource-card:hover,.pl-card:hover{transform:translateY(-4px);box-shadow:0 18px 34px #33115f20}.btn:hover,.pl-button:hover,.link-card:hover,.service-links a:hover{transform:translateY(-2px);box-shadow:0 6px 16px #33115f18}.back-to-top:hover{transform:translateY(-3px);background:#11435f}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}*,*::before,*::after{animation:none!important;transition:none!important}.tile:hover,.feature:hover,.resource-card:hover,.pl-card:hover,.btn:hover,.pl-button:hover,.link-card:hover,.service-links a:hover,.back-to-top:hover{transform:none!important}}

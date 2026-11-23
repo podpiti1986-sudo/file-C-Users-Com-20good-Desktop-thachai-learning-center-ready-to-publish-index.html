@@ -1,0 +1,7 @@
+const {test}=require('node:test'),assert=require('node:assert/strict');
+const {state,valid,settings}=require('../lib/cms-auth.cjs');const {esc,url,page}=require('./render.cjs');
+test('reject missing OAuth configuration',()=>assert.throws(()=>settings({})));
+test('login state rejects tampering, expiration and wrong signing key',()=>{const key='a'.repeat(64),s=state(key,1000);assert.equal(valid(s,key,1001),true);assert.equal(valid(s+'x',key,1001),false);assert.equal(valid(s,'b'.repeat(64),1001),false);assert.equal(valid(s,key,601001),false);});
+test('HTML and links cannot introduce executable content',()=>{assert.equal(esc('<script>'),'&lt;script&gt;');for(const value of ['javascript:alert(1)','//evil.example','data:text/html,test','../.env'])assert.throws(()=>url(value));assert.equal(url('assets/uploads/report.pdf'),'assets/uploads/report.pdf');assert.equal(url('https://example.com/report.pdf'),'https://example.com/report.pdf');});
+test('empty results remain blank and headings are escaped',()=>{assert.match(page({sections:[]}),/tc-empty-content/);assert.match(page({title:'ข่าว',sections:[{anchor:'news-1',title:'<img>',blocks:[]}]}),/&lt;img&gt;/);});
+test('source migration retains school population and staff',()=>{const data=require('../content/school.json');const html=page(data);for(const text of ['3,329','836','นายปิติพงษ์','บ้านป่ากล้วย'])assert.ok(html.includes(text),text);assert.equal(data.sections.find(s=>s.anchor==='volunteers').blocks.find(b=>b.type==='table').rows.length,13);});

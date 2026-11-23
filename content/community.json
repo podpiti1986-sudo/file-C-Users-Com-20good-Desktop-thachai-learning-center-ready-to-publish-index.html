@@ -1,0 +1,135 @@
+{
+  "title": "แหล่งเรียนรู้",
+  "sections": [
+    {
+      "anchor": "sufficiency-nongbua",
+      "title": "เศรษฐกิจพอเพียงหนองบัว",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "",
+          "body": "เกษตรกรรม"
+        },
+        {
+          "type": "text",
+          "heading": "",
+          "body": "📍 หมู่ที่ 6 ตำบลท่าชัย"
+        },
+        {
+          "type": "text",
+          "heading": "",
+          "body": "รอภาพสถานที่ ประวัติ วิทยากร และพิกัดเฉพาะจุด"
+        },
+        {
+          "type": "button",
+          "label": "สอบถามครู",
+          "url": "contact.html"
+        }
+      ]
+    },
+    {
+      "anchor": "ancient-metal",
+      "title": "ร้านเงิน/ทองโบราณ",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "",
+          "body": "อุตสาหกรรม"
+        },
+        {
+          "type": "text",
+          "heading": "",
+          "body": "📍 หมู่ที่ 3 ตำบลท่าชัย"
+        },
+        {
+          "type": "text",
+          "heading": "",
+          "body": "รอภาพสถานที่ ประวัติ วิทยากร และพิกัดเฉพาะจุด"
+        },
+        {
+          "type": "button",
+          "label": "สอบถามครู",
+          "url": "contact.html"
+        }
+      ]
+    },
+    {
+      "anchor": "wat-chaisit",
+      "title": "วัดใหม่ (วัดชัยสิทธาราม)",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "",
+          "body": "ศิลปะวัฒนธรรม"
+        },
+        {
+          "type": "text",
+          "heading": "",
+          "body": "📍 หมู่ที่ 10 ตำบลท่าชัย"
+        },
+        {
+          "type": "text",
+          "heading": "",
+          "body": "รอภาพสถานที่ ประวัติ วิทยากร และพิกัดเฉพาะจุด"
+        },
+        {
+          "type": "button",
+          "label": "สอบถามครู",
+          "url": "contact.html"
+        }
+      ]
+    },
+    {
+      "anchor": "sufficiency-thachai",
+      "title": "เศรษฐกิจพอเพียงบ้านท่าชัย",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "",
+          "body": "เกษตรกรรม"
+        },
+        {
+          "type": "text",
+          "heading": "",
+          "body": "📍 หมู่ที่ 4 ตำบลท่าชัย"
+        },
+        {
+          "type": "text",
+          "heading": "",
+          "body": "รอภาพสถานที่ ประวัติ วิทยากร และพิกัดเฉพาะจุด"
+        },
+        {
+          "type": "button",
+          "label": "สอบถามครู",
+          "url": "contact.html"
+        }
+      ]
+    },
+    {
+      "anchor": "ancient-metal-club",
+      "title": "ชมรมร้านเงินทองโบราณ อำเภอศรีสัชนาลัย",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "",
+          "body": "หัตถกรรม"
+        },
+        {
+          "type": "text",
+          "heading": "",
+          "body": "📍 หมู่ที่ 2, 5, 8 และ 10 ตำบลท่าชัย"
+        },
+        {
+          "type": "text",
+          "heading": "",
+          "body": "รอภาพสถานที่ ประวัติ วิทยากร และพิกัดเฉพาะจุด"
+        },
+        {
+          "type": "button",
+          "label": "สอบถามครู",
+          "url": "contact.html"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+const {settings,headers}=require('../lib/cms-auth.cjs');
+module.exports=(req,res)=>{headers(res);if(req.method!=='GET')return res.status(405).end();try{const c=settings();return res.status(200).json({backend:{name:'github',repo:c.repo,branch:'main',base_url:c.origin,auth_endpoint:'api/cms-auth'},site_url:c.origin,display_url:c.origin,publish_mode:'simple'});}catch{return res.status(503).json({ready:false,message:'CMS connection is not configured'});}};

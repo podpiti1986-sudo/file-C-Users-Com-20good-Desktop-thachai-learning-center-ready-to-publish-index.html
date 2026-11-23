@@ -1,0 +1,970 @@
+{
+  "locale": "th",
+  "media_folder": "site/assets/uploads",
+  "public_folder": "assets/uploads",
+  "site_url": "https://thachai-learning-center.vercel.app",
+  "display_url": "https://thachai-learning-center.vercel.app",
+  "collections": [
+    {
+      "name": "pages",
+      "label": "จัดการเนื้อหาเว็บไซต์",
+      "files": [
+        {
+          "name": "school",
+          "label": "ข้อมูลสถานศึกษา",
+          "file": "content/school.json",
+          "fields": [
+            {
+              "name": "title",
+              "label": "ชื่อหน้า",
+              "widget": "string"
+            },
+            {
+              "name": "sections",
+              "label": "ข่าวหรือหัวข้อเนื้อหา",
+              "widget": "list",
+              "summary": "{{fields.title}}",
+              "fields": [
+                {
+                  "name": "anchor",
+                  "label": "รหัสหัวข้อ ใช้ตัวอักษรอังกฤษหรือตัวเลข",
+                  "widget": "string",
+                  "pattern": [
+                    "^[a-z0-9-]+$",
+                    "ใช้ a-z, 0-9 และขีดกลาง"
+                  ]
+                },
+                {
+                  "name": "title",
+                  "label": "ชื่อหัวข้อ",
+                  "widget": "string"
+                },
+                {
+                  "name": "blocks",
+                  "label": "เนื้อหา",
+                  "widget": "list",
+                  "types": [
+                    {
+                      "name": "text",
+                      "label": "ข้อความ",
+                      "widget": "object",
+                      "fields": [
+                        {
+                          "name": "heading",
+                          "label": "หัวข้อย่อย",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "name": "body",
+                          "label": "เนื้อหา",
+                          "widget": "text",
+                          "required": false
+                        }
+                      ]
+                    },
+                    {
+                      "name": "image",
+                      "label": "รูปภาพ",
+                      "widget": "object",
+                      "fields": [
+                        {
+                          "name": "image",
+                          "label": "เลือกรูปภาพ",
+                          "widget": "image"
+                        },
+                        {
+                          "name": "alt",
+                          "label": "คำอธิบายภาพ",
+                          "widget": "string"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "list",
+                      "label": "รายการ",
+                      "widget": "object",
+                      "fields": [
+                        {
+                          "name": "ordered",
+                          "label": "แสดงเลขลำดับ",
+                          "widget": "boolean",
+                          "default": false
+                        },
+                        {
+                          "name": "items",
+                          "label": "รายการ",
+                          "widget": "list",
+                          "field": {
+                            "name": "item",
+                            "label": "ข้อความ",
+                            "widget": "string"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "button",
+                      "label": "ปุ่มลิงก์หรือเอกสาร",
+                      "widget": "object",
+                      "fields": [
+                        {
+                          "name": "label",
+                          "label": "ชื่อปุ่ม",
+                          "widget": "string"
+                        },
+                        {
+                          "name": "url",
+                          "label": "ลิงก์หรือที่อยู่ไฟล์",
+                          "widget": "string"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "table",
+                      "label": "ตารางข้อมูล",
+                      "widget": "object",
+                      "fields": [
+                        {
+                          "name": "columns",
+                          "label": "หัวคอลัมน์",
+                          "widget": "list",
+                          "field": {
+                            "name": "column",
+                            "label": "ชื่อคอลัมน์",
+                            "widget": "string"
+                          }
+                        },
+                        {
+                          "name": "rows",
+                          "label": "แถวข้อมูล",
+                          "widget": "list",
+                          "fields": [
+                            {
+                              "name": "cells",
+                              "label": "ข้อมูลเรียงตามคอลัมน์",
+                              "widget": "list",
+                              "field": {
+                                "name": "cell",
+                                "label": "ค่า",
+                                "widget": "string"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "summary": "{{fields.heading}}{{fields.label}}{{fields.alt}}"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "news",
+          "label": "ข่าวประชาสัมพันธ์",
+          "file": "content/news.json",
+          "fields": [
+            {
+              "name": "title",
+              "label": "ชื่อหน้า",
+              "widget": "string"
+            },
+            {
+              "name": "sections",
+              "label": "ข่าวหรือหัวข้อเนื้อหา",
+              "widget": "list",
+              "summary": "{{fields.title}}",
+              "fields": [
+                {
+                  "name": "anchor",
+                  "label": "รหัสหัวข้อ ใช้ตัวอักษรอังกฤษหรือตัวเลข",
+                  "widget": "string",
+                  "pattern": [
+                    "^[a-z0-9-]+$",
+                    "ใช้ a-z, 0-9 และขีดกลาง"
+                  ]
+                },
+                {
+                  "name": "title",
+                  "label": "ชื่อหัวข้อ",
+                  "widget": "string"
+                },
+                {
+                  "name": "blocks",
+                  "label": "เนื้อหา",
+                  "widget": "list",
+                  "types": [
+                    {
+                      "name": "text",
+                      "label": "ข้อความ",
+                      "widget": "object",
+                      "fields": [
+                        {
+                          "name": "heading",
+                          "label": "หัวข้อย่อย",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "name": "body",
+                          "label": "เนื้อหา",
+                          "widget": "text",
+                          "required": false
+                        }
+                      ]
+                    },
+                    {
+                      "name": "image",
+                      "label": "รูปภาพ",
+                      "widget": "object",
+                      "fields": [
+                        {
+                          "name": "image",
+                          "label": "เลือกรูปภาพ",
+                          "widget": "image"
+                        },
+                        {
+                          "name": "alt",
+                          "label": "คำอธิบายภาพ",
+                          "widget": "string"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "list",
+                      "label": "รายการ",
+                      "widget": "object",
+                      "fields": [
+                        {
+                          "name": "ordered",
+                          "label": "แสดงเลขลำดับ",
+                          "widget": "boolean",
+                          "default": false
+                        },
+                        {
+                          "name": "items",
+                          "label": "รายการ",
+                          "widget": "list",
+                          "field": {
+                            "name": "item",
+                            "label": "ข้อความ",
+                            "widget": "string"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "button",
+                      "label": "ปุ่มลิงก์หรือเอกสาร",
+                      "widget": "object",
+                      "fields": [
+                        {
+                          "name": "label",
+                          "label": "ชื่อปุ่ม",
+                          "widget": "string"
+                        },
+                        {
+                          "name": "url",
+                          "label": "ลิงก์หรือที่อยู่ไฟล์",
+                          "widget": "string"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "table",
+                      "label": "ตารางข้อมูล",
+                      "widget": "object",
+                      "fields": [
+                        {
+                          "name": "columns",
+                          "label": "หัวคอลัมน์",
+                          "widget": "list",
+                          "field": {
+                            "name": "column",
+                            "label": "ชื่อคอลัมน์",
+                            "widget": "string"
+                          }
+                        },
+                        {
+                          "name": "rows",
+                          "label": "แถวข้อมูล",
+                          "widget": "list",
+                          "fields": [
+                            {
+                              "name": "cells",
+                              "label": "ข้อมูลเรียงตามคอลัมน์",
+                              "widget": "list",
+                              "field": {
+                                "name": "cell",
+                                "label": "ค่า",
+                                "widget": "string"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "summary": "{{fields.heading}}{{fields.label}}{{fields.alt}}"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "community",
+          "label": "แหล่งเรียนรู้",
+          "file": "content/community.json",
+          "fields": [
+            {
+              "name": "title",
+              "label": "ชื่อหน้า",
+              "widget": "string"
+            },
+            {
+              "name": "sections",
+              "label": "ข่าวหรือหัวข้อเนื้อหา",
+              "widget": "list",
+              "summary": "{{fields.title}}",
+              "fields": [
+                {
+                  "name": "anchor",
+                  "label": "รหัสหัวข้อ ใช้ตัวอักษรอังกฤษหรือตัวเลข",
+                  "widget": "string",
+                  "pattern": [
+                    "^[a-z0-9-]+$",
+                    "ใช้ a-z, 0-9 และขีดกลาง"
+                  ]
+                },
+                {
+                  "name": "title",
+                  "label": "ชื่อหัวข้อ",
+                  "widget": "string"
+                },
+                {
+                  "name": "blocks",
+                  "label": "เนื้อหา",
+                  "widget": "list",
+                  "types": [
+                    {
+                      "name": "text",
+                      "label": "ข้อความ",
+                      "widget": "object",
+                      "fields": [
+                        {
+                          "name": "heading",
+                          "label": "หัวข้อย่อย",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "name": "body",
+                          "label": "เนื้อหา",
+                          "widget": "text",
+                          "required": false
+                        }
+                      ]
+                    },
+                    {
+                      "name": "image",
+                      "label": "รูปภาพ",
+                      "widget": "object",
+                      "fields": [
+                        {
+                          "name": "image",
+                          "label": "เลือกรูปภาพ",
+                          "widget": "image"
+                        },
+                        {
+                          "name": "alt",
+                          "label": "คำอธิบายภาพ",
+                          "widget": "string"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "list",
+                      "label": "รายการ",
+                      "widget": "object",
+                      "fields": [
+                        {
+                          "name": "ordered",
+                          "label": "แสดงเลขลำดับ",
+                          "widget": "boolean",
+                          "default": false
+                        },
+                        {
+                          "name": "items",
+                          "label": "รายการ",
+                          "widget": "list",
+                          "field": {
+                            "name": "item",
+                            "label": "ข้อความ",
+                            "widget": "string"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "button",
+                      "label": "ปุ่มลิงก์หรือเอกสาร",
+                      "widget": "object",
+                      "fields": [
+                        {
+                          "name": "label",
+                          "label": "ชื่อปุ่ม",
+                          "widget": "string"
+                        },
+                        {
+                          "name": "url",
+                          "label": "ลิงก์หรือที่อยู่ไฟล์",
+                          "widget": "string"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "table",
+                      "label": "ตารางข้อมูล",
+                      "widget": "object",
+                      "fields": [
+                        {
+                          "name": "columns",
+                          "label": "หัวคอลัมน์",
+                          "widget": "list",
+                          "field": {
+                            "name": "column",
+                            "label": "ชื่อคอลัมน์",
+                            "widget": "string"
+                          }
+                        },
+                        {
+                          "name": "rows",
+                          "label": "แถวข้อมูล",
+                          "widget": "list",
+                          "fields": [
+                            {
+                              "name": "cells",
+                              "label": "ข้อมูลเรียงตามคอลัมน์",
+                              "widget": "list",
+                              "field": {
+                                "name": "cell",
+                                "label": "ค่า",
+                                "widget": "string"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "summary": "{{fields.heading}}{{fields.label}}{{fields.alt}}"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "results2569",
+          "label": "ผลการดำเนินงาน ปี 2569",
+          "file": "content/results2569.json",
+          "fields": [
+            {
+              "name": "title",
+              "label": "ชื่อหน้า",
+              "widget": "string"
+            },
+            {
+              "name": "sections",
+              "label": "ข่าวหรือหัวข้อเนื้อหา",
+              "widget": "list",
+              "summary": "{{fields.title}}",
+              "fields": [
+                {
+                  "name": "anchor",
+                  "label": "รหัสหัวข้อ ใช้ตัวอักษรอังกฤษหรือตัวเลข",
+                  "widget": "string",
+                  "pattern": [
+                    "^[a-z0-9-]+$",
+                    "ใช้ a-z, 0-9 และขีดกลาง"
+                  ]
+                },
+                {
+                  "name": "title",
+                  "label": "ชื่อหัวข้อ",
+                  "widget": "string"
+                },
+                {
+                  "name": "blocks",
+                  "label": "เนื้อหา",
+                  "widget": "list",
+                  "types": [
+                    {
+                      "name": "text",
+                      "label": "ข้อความ",
+                      "widget": "object",
+                      "fields": [
+                        {
+                          "name": "heading",
+                          "label": "หัวข้อย่อย",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "name": "body",
+                          "label": "เนื้อหา",
+                          "widget": "text",
+                          "required": false
+                        }
+                      ]
+                    },
+                    {
+                      "name": "image",
+                      "label": "รูปภาพ",
+                      "widget": "object",
+                      "fields": [
+                        {
+                          "name": "image",
+                          "label": "เลือกรูปภาพ",
+                          "widget": "image"
+                        },
+                        {
+                          "name": "alt",
+                          "label": "คำอธิบายภาพ",
+                          "widget": "string"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "list",
+                      "label": "รายการ",
+                      "widget": "object",
+                      "fields": [
+                        {
+                          "name": "ordered",
+                          "label": "แสดงเลขลำดับ",
+                          "widget": "boolean",
+                          "default": false
+                        },
+                        {
+                          "name": "items",
+                          "label": "รายการ",
+                          "widget": "list",
+                          "field": {
+                            "name": "item",
+                            "label": "ข้อความ",
+                            "widget": "string"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "button",
+                      "label": "ปุ่มลิงก์หรือเอกสาร",
+                      "widget": "object",
+                      "fields": [
+                        {
+                          "name": "label",
+                          "label": "ชื่อปุ่ม",
+                          "widget": "string"
+                        },
+                        {
+                          "name": "url",
+                          "label": "ลิงก์หรือที่อยู่ไฟล์",
+                          "widget": "string"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "table",
+                      "label": "ตารางข้อมูล",
+                      "widget": "object",
+                      "fields": [
+                        {
+                          "name": "columns",
+                          "label": "หัวคอลัมน์",
+                          "widget": "list",
+                          "field": {
+                            "name": "column",
+                            "label": "ชื่อคอลัมน์",
+                            "widget": "string"
+                          }
+                        },
+                        {
+                          "name": "rows",
+                          "label": "แถวข้อมูล",
+                          "widget": "list",
+                          "fields": [
+                            {
+                              "name": "cells",
+                              "label": "ข้อมูลเรียงตามคอลัมน์",
+                              "widget": "list",
+                              "field": {
+                                "name": "cell",
+                                "label": "ค่า",
+                                "widget": "string"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "summary": "{{fields.heading}}{{fields.label}}{{fields.alt}}"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "results2570",
+          "label": "ผลการดำเนินงาน ปี 2570",
+          "file": "content/results2570.json",
+          "fields": [
+            {
+              "name": "title",
+              "label": "ชื่อหน้า",
+              "widget": "string"
+            },
+            {
+              "name": "sections",
+              "label": "ข่าวหรือหัวข้อเนื้อหา",
+              "widget": "list",
+              "summary": "{{fields.title}}",
+              "fields": [
+                {
+                  "name": "anchor",
+                  "label": "รหัสหัวข้อ ใช้ตัวอักษรอังกฤษหรือตัวเลข",
+                  "widget": "string",
+                  "pattern": [
+                    "^[a-z0-9-]+$",
+                    "ใช้ a-z, 0-9 และขีดกลาง"
+                  ]
+                },
+                {
+                  "name": "title",
+                  "label": "ชื่อหัวข้อ",
+                  "widget": "string"
+                },
+                {
+                  "name": "blocks",
+                  "label": "เนื้อหา",
+                  "widget": "list",
+                  "types": [
+                    {
+                      "name": "text",
+                      "label": "ข้อความ",
+                      "widget": "object",
+                      "fields": [
+                        {
+                          "name": "heading",
+                          "label": "หัวข้อย่อย",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "name": "body",
+                          "label": "เนื้อหา",
+                          "widget": "text",
+                          "required": false
+                        }
+                      ]
+                    },
+                    {
+                      "name": "image",
+                      "label": "รูปภาพ",
+                      "widget": "object",
+                      "fields": [
+                        {
+                          "name": "image",
+                          "label": "เลือกรูปภาพ",
+                          "widget": "image"
+                        },
+                        {
+                          "name": "alt",
+                          "label": "คำอธิบายภาพ",
+                          "widget": "string"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "list",
+                      "label": "รายการ",
+                      "widget": "object",
+                      "fields": [
+                        {
+                          "name": "ordered",
+                          "label": "แสดงเลขลำดับ",
+                          "widget": "boolean",
+                          "default": false
+                        },
+                        {
+                          "name": "items",
+                          "label": "รายการ",
+                          "widget": "list",
+                          "field": {
+                            "name": "item",
+                            "label": "ข้อความ",
+                            "widget": "string"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "button",
+                      "label": "ปุ่มลิงก์หรือเอกสาร",
+                      "widget": "object",
+                      "fields": [
+                        {
+                          "name": "label",
+                          "label": "ชื่อปุ่ม",
+                          "widget": "string"
+                        },
+                        {
+                          "name": "url",
+                          "label": "ลิงก์หรือที่อยู่ไฟล์",
+                          "widget": "string"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "table",
+                      "label": "ตารางข้อมูล",
+                      "widget": "object",
+                      "fields": [
+                        {
+                          "name": "columns",
+                          "label": "หัวคอลัมน์",
+                          "widget": "list",
+                          "field": {
+                            "name": "column",
+                            "label": "ชื่อคอลัมน์",
+                            "widget": "string"
+                          }
+                        },
+                        {
+                          "name": "rows",
+                          "label": "แถวข้อมูล",
+                          "widget": "list",
+                          "fields": [
+                            {
+                              "name": "cells",
+                              "label": "ข้อมูลเรียงตามคอลัมน์",
+                              "widget": "list",
+                              "field": {
+                                "name": "cell",
+                                "label": "ค่า",
+                                "widget": "string"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "summary": "{{fields.heading}}{{fields.label}}{{fields.alt}}"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "academic",
+          "label": "ผลงานวิชาการ",
+          "file": "content/academic.json",
+          "fields": [
+            {
+              "name": "title",
+              "label": "ชื่อหน้า",
+              "widget": "string"
+            },
+            {
+              "name": "sections",
+              "label": "ข่าวหรือหัวข้อเนื้อหา",
+              "widget": "list",
+              "summary": "{{fields.title}}",
+              "fields": [
+                {
+                  "name": "anchor",
+                  "label": "รหัสหัวข้อ ใช้ตัวอักษรอังกฤษหรือตัวเลข",
+                  "widget": "string",
+                  "pattern": [
+                    "^[a-z0-9-]+$",
+                    "ใช้ a-z, 0-9 และขีดกลาง"
+                  ]
+                },
+                {
+                  "name": "title",
+                  "label": "ชื่อหัวข้อ",
+                  "widget": "string"
+                },
+                {
+                  "name": "blocks",
+                  "label": "เนื้อหา",
+                  "widget": "list",
+                  "types": [
+                    {
+                      "name": "text",
+                      "label": "ข้อความ",
+                      "widget": "object",
+                      "fields": [
+                        {
+                          "name": "heading",
+                          "label": "หัวข้อย่อย",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "name": "body",
+                          "label": "เนื้อหา",
+                          "widget": "text",
+                          "required": false
+                        }
+                      ]
+                    },
+                    {
+                      "name": "image",
+                      "label": "รูปภาพ",
+                      "widget": "object",
+                      "fields": [
+                        {
+                          "name": "image",
+                          "label": "เลือกรูปภาพ",
+                          "widget": "image"
+                        },
+                        {
+                          "name": "alt",
+                          "label": "คำอธิบายภาพ",
+                          "widget": "string"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "list",
+                      "label": "รายการ",
+                      "widget": "object",
+                      "fields": [
+                        {
+                          "name": "ordered",
+                          "label": "แสดงเลขลำดับ",
+                          "widget": "boolean",
+                          "default": false
+                        },
+                        {
+                          "name": "items",
+                          "label": "รายการ",
+                          "widget": "list",
+                          "field": {
+                            "name": "item",
+                            "label": "ข้อความ",
+                            "widget": "string"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "button",
+                      "label": "ปุ่มลิงก์หรือเอกสาร",
+                      "widget": "object",
+                      "fields": [
+                        {
+                          "name": "label",
+                          "label": "ชื่อปุ่ม",
+                          "widget": "string"
+                        },
+                        {
+                          "name": "url",
+                          "label": "ลิงก์หรือที่อยู่ไฟล์",
+                          "widget": "string"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "table",
+                      "label": "ตารางข้อมูล",
+                      "widget": "object",
+                      "fields": [
+                        {
+                          "name": "columns",
+                          "label": "หัวคอลัมน์",
+                          "widget": "list",
+                          "field": {
+                            "name": "column",
+                            "label": "ชื่อคอลัมน์",
+                            "widget": "string"
+                          }
+                        },
+                        {
+                          "name": "rows",
+                          "label": "แถวข้อมูล",
+                          "widget": "list",
+                          "fields": [
+                            {
+                              "name": "cells",
+                              "label": "ข้อมูลเรียงตามคอลัมน์",
+                              "widget": "list",
+                              "field": {
+                                "name": "cell",
+                                "label": "ค่า",
+                                "widget": "string"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "summary": "{{fields.heading}}{{fields.label}}{{fields.alt}}"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "settings",
+      "label": "ข้อมูลติดต่อและห้องเรียน",
+      "files": [
+        {
+          "name": "contact",
+          "label": "ข้อมูลติดต่อ",
+          "file": "content/settings.json",
+          "fields": [
+            {
+              "name": "center",
+              "label": "ชื่อศูนย์",
+              "widget": "string"
+            },
+            {
+              "name": "teacher",
+              "label": "ชื่อครู",
+              "widget": "string"
+            },
+            {
+              "name": "phone",
+              "label": "โทรศัพท์",
+              "widget": "string"
+            },
+            {
+              "name": "email",
+              "label": "อีเมล",
+              "widget": "string"
+            },
+            {
+              "name": "facebook",
+              "label": "Facebook",
+              "widget": "string"
+            },
+            {
+              "name": "padlet",
+              "label": "ห้องเรียน Padlet",
+              "widget": "string"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

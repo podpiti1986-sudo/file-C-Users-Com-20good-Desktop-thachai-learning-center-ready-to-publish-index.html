@@ -1,0 +1,14 @@
+#thachai-library .pl-filters{display:flex;flex-wrap:wrap;justify-content:center;gap:9px;margin:20px auto;max-width:960px}
+#thachai-library .pl-filters button{border:1px solid #c7ddf0;border-radius:24px;padding:10px 16px;background:#ffffff;color:#21628a;font:600 16px Sarabun,Tahoma,sans-serif;min-height:44px}
+#thachai-library .pl-filters button[aria-pressed=true]{background:#21628a;color:#ffffff;border-color:#21628a;box-shadow:0 3px 0 #e9bd61}
+#thachai-library .pl-filters button:focus-visible,#thachai-library .pl-search:focus-visible{outline:3px solid #b58016;outline-offset:3px}
+#thachai-library .pl-help,#thachai-library #pl-count,#thachai-library #pl-load{text-align:center;color:#486576;line-height:1.7}
+#thachai-library .pl-grid{max-width:1100px;grid-template-columns:repeat(3,minmax(0,1fr))}
+#thachai-library .pl-card{border-color:#d8e7f2;min-width:0}
+#thachai-library .pl-cover{background:linear-gradient(135deg,#edf8ff,#fff8e5)}
+#thachai-library .pl-tag{background:#eaf8ff;color:#256e97}
+#thachai-library .pl-age{display:block;color:#76540b;font-size:14px;margin:8px 0}
+#thachai-library .pl-source a{text-decoration:underline;text-underline-offset:3px}
+#thachai-library .pl-card[hidden]{display:none!important}
+@media(max-width:850px){#thachai-library .pl-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){#thachai-library .pl-grid{grid-template-columns:minmax(0,1fr)}#thachai-library .pl-filters button{padding:9px 12px;font-size:15px}#thachai-library .pl-cover{height:260px}}
